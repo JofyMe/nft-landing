@@ -1,0 +1,125 @@
+@import 'normalize.css';
+@import 'variables.scss';
+
+// DEFAULT MAIN STYLE
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: $primary-font, $default-font;
+}
+
+body,
+html,
+#wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+
+main {
+  padding-top: $height-header;
+}
+
+section {
+  padding-top: 5%;
+}
+
+.container {
+  width: 1280px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  height: 100%;
+  height: $height-header;
+}
+
+// MIXINS
+@mixin font($fs, $fw, $color) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $fs * 1.3;
+  color: $color;
+
+  @media screen and (max-width: $bp-large) {
+    font-size: $fs * 0.9;
+    line-height: $fs * 1.2;
+  }
+
+  @media screen and (max-width: $bp-medium) {
+    font-size: $fs * 0.8;
+    line-height: $fs * 1.1;
+  }
+
+  @media screen and (max-width: $bp-small) {
+    font-size: $fs * 0.7;
+    line-height: $fs;
+  }
+}
+
+// FONTS STYLE
+
+h1 {
+  @include font(48px, 700, $text-color);
+}
+
+h2 {
+  @include font(38px, 700, $text-color);
+}
+
+h3 {
+  @include font(25px, 600, $text-color);
+}
+
+h4 {
+  @include font(20px, 600, $text-color);
+}
+
+h5 {
+  @include font(16px, 600, $text-color);
+}
+
+h6 {
+  @include font(16px, 600, $text-color);
+}
+
+p {
+  @include font(16px, 500, $text-color);
+}
+
+a {
+  @include font(16px, 500, $text-color);
+}
+
+button {
+  @include font(16px, 500, $text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+button {
+  transition: all 0.3s;
+  span {
+    color: $warning-color;
+  }
+}
