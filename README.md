@@ -1,6 +1,6 @@
-# JS TEMPLATE
+#NFT LANDING 
 
-Template for creating a new project in vanilla js 
+A beautiful NFT-themed landing page 
 
 ## Built With
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Markup language
@@ -14,7 +14,7 @@ Template for creating a new project in vanilla js
 
 * **Oleg Tretiak** - *Initial work* - [JofyMe](https://github.com/JofyMe)
 
-See also the list of [contributors](https://github.com/JofyMe/js-template/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/JofyMe/nft-landing/graphs/contributors) who participated in this project.
 
 ## License
 
