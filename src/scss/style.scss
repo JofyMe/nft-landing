@@ -1,5 +1,5 @@
-@import 'normalize.css';
-@import 'variables.scss';
+@import "normalize.css";
+@import "variables.scss";
 
 // DEFAULT MAIN STYLE
 * {
@@ -28,7 +28,6 @@ li {
   list-style-type: none;
 }
 
-
 main {
   padding-top: $height-header;
 }
@@ -38,7 +37,7 @@ section {
 }
 
 .container {
-  width: 1280px;
+  width: 1200px;
   max-width: 90%;
   margin: 0 auto;
 }
@@ -74,39 +73,44 @@ section {
 // FONTS STYLE
 
 h1 {
-  @include font(48px, 700, $text-color);
+  @include font(48px, 700, $white);
 }
 
 h2 {
-  @include font(38px, 700, $text-color);
+  @include font(38px, 700, $white);
 }
 
 h3 {
-  @include font(25px, 600, $text-color);
+  @include font(25px, 600, $white);
 }
 
 h4 {
-  @include font(20px, 600, $text-color);
+  @include font(20px, 600, $white);
 }
 
 h5 {
-  @include font(16px, 600, $text-color);
+  @include font(16px, 600, $white);
 }
 
 h6 {
-  @include font(16px, 600, $text-color);
+  @include font(16px, 600, $white);
 }
 
 p {
-  @include font(16px, 500, $text-color);
+  @include font(16px, 500, $white);
 }
 
 a {
-  @include font(16px, 500, $text-color);
+  @include font(16px, 500, $white);
 }
 
 button {
-  @include font(16px, 500, $text-color);
+  padding: 16px 32px;
+  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+  border-radius: 66px;
+  border: 0;
+  white-space: nowrap;
+  @include font(16px, 500, $white);
 }
 
 h1,

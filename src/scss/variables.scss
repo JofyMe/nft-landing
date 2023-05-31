@@ -1,12 +1,11 @@
 //?FONTS
-$primary-font: "Roboto";
+$primary-font: "Inter";
 $secondary-font: "";
 $default-font: sans-serif;
 
 //?COLORS
 //Main colors
 $primary-color: #1e252b;
-$secondary-color: #f7a501;
 $white: #fff;
 $black: #000;
 
@@ -19,7 +18,7 @@ $light-color: #f8f9fa;
 $dark-color: #343a40;
 
 //?COMPONENTS COLORS
-$background-color: $light-color;
+$background-color: #110929;
 $header-color: $dark-color;
 $link-color: $light-color;
 $link-color-hover: $warning-color;
