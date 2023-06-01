@@ -10,7 +10,7 @@ A beautiful NFT-themed landing page
 * [GIT](https://git-scm.com/) - Version control system
 * [VSC](https://code.visualstudio.com/) - Source code editor 
 
-## Authors
+## Author
 
 * **Oleg Tretiak** - *Initial work* - [JofyMe](https://github.com/JofyMe)
 
