@@ -4,9 +4,10 @@
 
 
 //HEADER
-@import "components/header.scss";
+@import "components/main/header.scss";
 
 //PAGES
+@import "components/pages/hero.scss";
 
 //FOOTER
-@import "components/footer.scss";
+@import "components/main/footer.scss";
